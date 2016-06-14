@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+       <link rel= "stylesheet" type = "text/css" href="style.css">
+		<title> Fire </title>
+	</head>
+	<body>
+		<h1> Hello! Would You play game with me?</h1>
+			<h2>   About me:</h2>
+		  <p> My name is Ember (Xihan). I am Chinese. Now I am going to Mission high School. </p>
+		<p> I never make a game from computer. I really look forward that. That is a special and interesting thing.</p>
+		<p> I am really lucky to being this group. I always think computer skill is difficult. Now I am really confident to make my game. My <a href ="www.4399.com"> 4399 </a> is relly good.</p>
+		<img src="http://newsimg.5054399.com/uploads/userup/1407/0P92Z24333.jpg"/>
+	<h3> My goals </h3> 
+	<p> This summer I think I can improve my computer skill and make my own game. Share my game to my friends. </p> 
+        <p1> <a href="image.html"> My images </a></p1>
+	</body>
+</html>
