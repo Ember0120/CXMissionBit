@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+  <p> Is 2 > 5? </p>
+  <p id = "test"> </p>
+  <button onclick = "ifStmt1()"> Answer </button>
+  
+  <p> Is 10 equal to 10?</p>
+    <p id="test2"></p> 
+    <button onclick = "ifStmt2()">answer</button>
+  
+    <p> Is 3 less than 7?</p>
+    <p id="test3"></p> 
+    <button onclick = "ifStmt3()">answer</button>
+  
+  
+   <p> Print 1-20 , even number</p>
+    <p id="number"></p> 
+    <button onclick = "number()">answer</button>
+<body>
+  
+  <script>
+    function ifStmt1() {
+      var result = "";
+      if ( 2 > 5)
+        {
+          result += "Yes";
+        }
+      else
+        {
+          result += "No";
+        }
+    
+document.getElementById("test").innerHTML = result; 
+    }
+    
+    function ifStmt2(){
+      var result="";
+       if (10===10){
+         result += "10 equal to 10";
+        }
+      else{ 
+          result +="no";
+        }document.getElementById("test2").innerHTML = result; 
+
+    }
+    
+    function ifStmt3(){
+      var result="";
+       if (3 < 7){
+         result += "3 is less than 7";
+        }
+      else{ 
+          result +="no";
+        }document.getElementById("test3").innerHTML = result; 
+
+    }
+function number(){
+      var result="";
+       for(var i=2; i<=20; i = i+2){
+         result += i+" "
+       }
+        document.getElementById("number").innerHTML = result; 
+
+    }
+
+  </script>
+</body>
+</html>
