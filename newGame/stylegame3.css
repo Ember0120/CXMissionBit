@@ -1,0 +1,23 @@
+body{
+                background-color: lightpink;
+            }
+            p {
+                font-family:fantasy;
+                  text-indent: 100px;
+            }
+            h1 {
+                font-family: cursive;
+            
+            }
+h2{
+       word-spacing: 10px;
+}
+            p{
+                font-language-override:
+            }
+ img {
+    position: absolute;
+    right: 100px;
+    bottom: 60px;
+       z-index: -1;
+}

@@ -1,0 +1,27 @@
+body{
+                background-color: lightcyan;
+            }
+            p {
+                font-family:fantasy;
+                  font-language-override:normal;
+            
+                     text-align:center;
+            
+        
+                   
+                    
+}
+              
+                
+           
+            h2 {
+             word-spacing: 2px;
+                                  text-indent:10px;
+}
+               
+                h2.big{
+                     word-spacing:2px;
+                                  text-indent:10px;
+                }
+  
+               
